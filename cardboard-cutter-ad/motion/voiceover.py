@@ -1,6 +1,6 @@
 """Build a GUIDE voice-over track with espeak-ng (offline) and mix it into the ad.
 
-This is a timing/guide track, not a studio voice: replace it with a real Gulf female recording
+This is a timing/guide track, not a studio voice: replace it with a real female recording (white Arabic)
 using output/add-voiceover.sh when available.
 
 Usage: python3 voiceover.py OUTPUT_DIR WORK_DIR
@@ -14,13 +14,13 @@ os.makedirs(WORK, exist_ok=True)
 
 # (text with diacritics for correct pronunciation, start s, max duration s)
 LINES = [
-    ("تَخَيَّلِي شِنُو نِقْدَرْ نْسَوِّي فِيه!", 0.4, 2.2),
+    ("تَخَيَّلُوا مَاذَا سَنَصْنَعُ مِنْهْ!", 0.4, 2.2),
     ("صَارُوخْ؟", 9.55, 0.75),
     ("قَلْعَة؟", 10.35, 0.7),
     ("أَوْ دَيْنَاصُورْ؟", 11.1, 0.85),
-    ("خَلِّ الْخَيَالْ يِخْتَارْ!", 11.95, 1.0),
-    ("مُتْعَة يِصْنَعُونْهَا بْإِيدْهُمْ!", 13.05, 1.9),
-    ("اِبْدَؤُوا مُغَامَرَةَ الْإِبْدَاعْ مَعَ ابْتِكَارْ!", 16.4, 3.0),
+    ("دَعُوا الْخَيَالَ يَخْتَارْ!", 11.95, 1.0),
+    ("مُتْعَةٌ يَصْنَعُونَهَا بِأَيْدِيهِمْ!", 13.05, 1.9),
+    ("اِبْدَؤُوا مُغَامَرَةَ الْإِبْدَاعِ مَعَ ابْتِكَارْ!", 16.4, 3.0),
 ]
 
 

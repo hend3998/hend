@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Replace the guide voice with a real Gulf female recording.
+# Replace the guide voice with a real female recording (white Arabic).
 # Usage: ./add-voiceover.sh vo.wav
 #   vo.wav = one 20s take, lines placed at: 0.4s / 9.55s / 10.35s / 11.1s / 11.95s / 13.05s / 16.4s
 #   (same timing as stems/voiceover-guide.wav — record over it or line up against it).
